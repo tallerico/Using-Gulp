@@ -1,8 +1,8 @@
 {
-  "name": "project8_using-gulp",
+  "name": "project_8-using_gulp",
   "version": "0.0.1",
   "description": "Project 8 - Using Gulp to Build a Front End Website",
-  "main": "app.js",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,12 +15,13 @@
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.5.0",
     "gulp-csso": "^3.0.1",
+    "gulp-imagemin": "^4.1.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.1",
-    "imagemin": "^6.0.0"
+    "gulp-uglify": "^3.0.1"
   },
   "dependencies": {}
 }
