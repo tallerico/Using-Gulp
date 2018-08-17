@@ -1,3 +1,4 @@
+/*------------ Modules ------------*/
 const gulp = require('gulp');
 const concat = require('gulp-concat');
 const connect = require('gulp-connect');
@@ -80,7 +81,7 @@ gulp.task('connect', ['build'], function() {
 
 //runs 'connect', which runs 'build'.
 //also watches all files in sass folder ending in .s*ss for changes
-//and runs 'styles' then reloads the hot reloads web page when changes are found
+//and runs 'styles' then hot reloads web page when changes are found
 gulp.task('default', ['connect'], function() {
   gulp.watch(['sass/**/**/*.s*ss'],['styles']);
 });
